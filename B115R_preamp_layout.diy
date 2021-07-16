@@ -156,9 +156,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="3.740157480314963" y="1.6929133858267715"/>
-        <point x="3.1102362204724407" y="2.834645669291339"/>
-        <point x="2.9921259842519685" y="5.433070866141732"/>
-        <point x="3.4645669291338583" y="5.078740157480315"/>
+        <point x="3.346456692913386" y="2.4015748031496065"/>
+        <point x="3.1496062992125986" y="2.952755905511811"/>
+        <point x="3.0708661417322833" y="3.0708661417322833"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -173,10 +173,10 @@
       <name></name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.503937007874016" y="3.818897637795276"/>
-        <point x="3.5826771653543306" y="3.7401574803149606"/>
-        <point x="3.6220472440944884" y="3.818897637795276"/>
-        <point x="3.585" y="3.95"/>
+        <point x="5.866141732283464" y="3.8582677165354333"/>
+        <point x="5.196850393700788" y="4.3700787401574805"/>
+        <point x="5.039370078740157" y="4.448818897637795"/>
+        <point x="4.886889763779527" y="4.45"/>
       </controlPoints2>
       <color hex="cccccc"/>
       <pointCount>FOUR</pointCount>
@@ -191,71 +191,10 @@
       <name></name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.4645669291338583" y="5.078740157480315"/>
-        <point x="3.5433070866141736" y="5.2362204724409445"/>
-        <point x="3.661417322834646" y="5.118110236220473"/>
-        <point x="3.585" y="4.985"/>
-      </controlPoints2>
-      <color hex="cccccc"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_26</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.passive.AxialFilmCapacitor>
-      <name>C18</name>
-      <alpha>127</alpha>
-      <length value="26.0" unit="mm"/>
-      <width value="7.0" unit="mm"/>
-      <points>
-        <point x="3.585" y="4.985"/>
-        <point x="3.585" y="3.95"/>
-        <point x="3.585" y="4.4675"/>
-      </points>
-      <bodyColor hex="ffe303"/>
-      <borderColor hex="b29e02"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>BOTH</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>true</hideShortLeads>
-      <value value="100.0" unit="nF"/>
-      <voltage>_63V</voltage>
-      <voltageNew value="630.0" unit="V"/>
-      <showOuterFoil>false</showOuterFoil>
-      <outerFoilColor hex="ffffff"/>
-    </diylc.passive.AxialFilmCapacitor>
-    <diylc.connectivity.HookupWire>
-      <name></name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="3.0708661417322833" y="3.0708661417322833"/>
-        <point x="3.27" y="2.995"/>
-        <point x="3.267716535433071" y="3.1102362204724407"/>
-        <point x="3.27" y="3.36"/>
-      </controlPoints2>
-      <color hex="cccccc"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_26</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name></name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="3.4645669291338583" y="4.68503937007874"/>
-        <point x="3.27" y="4.76"/>
-        <point x="3.228346456692914" y="4.606299212598426"/>
-        <point x="3.27" y="4.395"/>
+        <point x="3.503937007874016" y="4.68503937007874"/>
+        <point x="3.67" y="4.45"/>
+        <point x="3.700787401574803" y="4.448818897637795"/>
+        <point x="3.97" y="4.45"/>
       </controlPoints2>
       <color hex="cccccc"/>
       <pointCount>FOUR</pointCount>
@@ -272,9 +211,9 @@
       <length value="26.0" unit="mm"/>
       <width value="7.0" unit="mm"/>
       <points>
-        <point x="3.27" y="4.395"/>
-        <point x="3.27" y="3.36"/>
-        <point x="3.27" y="3.8775"/>
+        <point x="3.851889763779527" y="4.45"/>
+        <point x="4.886889763779527" y="4.45"/>
+        <point x="4.369389763779527" y="4.45"/>
       </points>
       <bodyColor hex="ffe303"/>
       <borderColor hex="b29e02"/>
@@ -677,8 +616,8 @@
       <controlPoints2>
         <point x="4.881889763779528" y="1.7322834645669292"/>
         <point x="3.503937007874016" y="1.4173228346456694"/>
-        <point x="6.0236220472440944" y="3.4645669291338583"/>
-        <point x="6.299212598425197" y="4.68503937007874"/>
+        <point x="5.708661417322835" y="3.3070866141732282"/>
+        <point x="5.866141732283464" y="3.8582677165354333"/>
       </controlPoints2>
       <color hex="cc00cc"/>
       <pointCount>FOUR</pointCount>
@@ -1607,14 +1546,14 @@
       <layer>_1</layer>
     </diylc.connectivity.SolderPad>
     <diylc.passive.Resistor>
-      <name>R25</name>
+      <name>R26</name>
       <alpha>127</alpha>
       <length value="11.5" unit="mm"/>
       <width value="4.0" unit="mm"/>
       <points>
-        <point x="3.464566929133862" y="3.897637795275589"/>
-        <point x="3.464566929133862" y="4.685039370078739"/>
-        <point x="3.464566929133862" y="4.291338582677165"/>
+        <point x="3.070866141732287" y="3.070866141732282"/>
+        <point x="3.070866141732287" y="3.8582677165354324"/>
+        <point x="3.070866141732287" y="3.4645669291338583"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -2149,8 +2088,8 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="5.0" y="2.0866141732283467"/>
-        <point x="5.078740157480315" y="2.5590551181102366"/>
-        <point x="6.299212598425197" y="2.440944881889764"/>
+        <point x="5.669291338582678" y="2.440944881889764"/>
+        <point x="5.551181102362205" y="4.015748031496063"/>
         <point x="5.905511811023622" y="4.251968503937008"/>
       </controlPoints2>
       <color hex="999999"/>
@@ -2219,7 +2158,7 @@
         <point x="5.0" y="1.614173228346457"/>
         <point x="4.606299212598426" y="1.1023622047244095"/>
         <point x="3.6220472440944884" y="2.362204724409449"/>
-        <point x="3.4645669291338583" y="3.8976377952755907"/>
+        <point x="3.0708661417322833" y="3.0708661417322833"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2238,24 +2177,6 @@
         <point x="6.299212598425198" y="5.2362204724409445"/>
         <point x="6.653543307086615" y="5.2362204724409445"/>
         <point x="6.692913385826773" y="5.078740157480315"/>
-      </controlPoints2>
-      <color hex="000000"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="000000"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W31</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="3.0708661417322833" y="5.078740157480314"/>
-        <point x="3.1496062992125973" y="5.2362204724409445"/>
-        <point x="3.779527559055117" y="5.2362204724409445"/>
-        <point x="3.858267716535431" y="5.078740157480314"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2378,10 +2299,10 @@
       <name>W56</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.0708661417322833" y="3.0708661417322833"/>
-        <point x="2.362204724409449" y="3.6220472440944884"/>
-        <point x="2.637795275590551" y="5.275590551181102"/>
-        <point x="2.9133858267716533" y="6.929133858267717"/>
+        <point x="3.4645669291338583" y="4.68503937007874"/>
+        <point x="3.3070866141732282" y="4.7637795275590555"/>
+        <point x="2.9133858267716537" y="5.78740157480315"/>
+        <point x="2.5196850393700796" y="6.811023622047245"/>
         <point x="4.291338582677166" y="7.401574803149606"/>
       </controlPoints2>
       <color hex="0066ff"/>
@@ -2411,31 +2332,6 @@
       <striped>false</striped>
       <stripeColor hex="000000"/>
     </diylc.connectivity.HookupWire>
-    <diylc.passive.Resistor>
-      <name>R26</name>
-      <alpha>127</alpha>
-      <length value="11.5" unit="mm"/>
-      <width value="4.0" unit="mm"/>
-      <points>
-        <point x="3.4645669291338583" y="4.685039370078742"/>
-        <point x="3.0708661417322842" y="4.2913385826771675"/>
-        <point x="3.2677165354330713" y="4.4881889763779546"/>
-      </points>
-      <bodyColor hex="82cffd"/>
-      <borderColor hex="5b90b1"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>BOTH</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value value="1.5" unit="K"/>
-      <power>HALF</power>
-      <powerNew value="1.0" unit="W"/>
-      <colorCode>NONE</colorCode>
-      <shape>Standard</shape>
-    </diylc.passive.Resistor>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
       <alpha>127</alpha>
@@ -3033,39 +2929,14 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
-      <name>R27</name>
-      <alpha>127</alpha>
-      <length value="11.5" unit="mm"/>
-      <width value="4.0" unit="mm"/>
-      <points>
-        <point x="3.4645669291338597" y="4.6850393700787425"/>
-        <point x="3.0708661417322833" y="5.078740157480317"/>
-        <point x="3.267716535433071" y="4.88188976377953"/>
-      </points>
-      <bodyColor hex="82cffd"/>
-      <borderColor hex="5b90b1"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>BOTH</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value value="100.0" unit="K"/>
-      <power>HALF</power>
-      <powerNew value="1.0" unit="W"/>
-      <colorCode>NONE</colorCode>
-      <shape>Standard</shape>
-    </diylc.passive.Resistor>
-    <diylc.passive.Resistor>
       <name>R33</name>
       <alpha>127</alpha>
       <length value="11.5" unit="mm"/>
       <width value="4.0" unit="mm"/>
       <points>
-        <point x="3.0708661417322833" y="3.0708661417322842"/>
-        <point x="3.0708661417322833" y="3.8582677165354333"/>
-        <point x="3.0708661417322833" y="3.4645669291338588"/>
+        <point x="3.4645669291338583" y="3.8582677165354333"/>
+        <point x="3.4645669291338583" y="4.6850393700787425"/>
+        <point x="3.4645669291338583" y="4.271653543307088"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -3761,24 +3632,6 @@
       <name></name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.8582677165354333" y="5.078740157480315"/>
-        <point x="3.775" y="5.29"/>
-        <point x="3.78" y="5.085"/>
-        <point x="3.78" y="5.11"/>
-      </controlPoints2>
-      <color hex="cccccc"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_26</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name></name>
-      <alpha>127</alpha>
-      <controlPoints2>
         <point x="3.8582677165354333" y="4.68503937007874"/>
         <point x="3.78" y="4.465"/>
         <point x="3.78" y="4.67"/>
@@ -3793,31 +3646,6 @@
       <striped>false</striped>
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
-    <diylc.passive.Resistor>
-      <name>R32</name>
-      <alpha>127</alpha>
-      <length value="11.5" unit="mm"/>
-      <width value="4.0" unit="mm"/>
-      <points>
-        <point x="3.78" y="4.645"/>
-        <point x="3.78" y="5.11"/>
-        <point x="3.78" y="4.877499999999999"/>
-      </points>
-      <bodyColor hex="82cffd"/>
-      <borderColor hex="5b90b1"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>BOTH</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>true</hideShortLeads>
-      <value value="1.0" unit="M"/>
-      <power>HALF</power>
-      <powerNew value="1.0" unit="W"/>
-      <colorCode>NONE</colorCode>
-      <shape>Standard</shape>
-    </diylc.passive.Resistor>
     <diylc.connectivity.HookupWire>
       <name></name>
       <alpha>127</alpha>
@@ -3964,7 +3792,7 @@
       <controlPoints2>
         <point x="3.503937007874016" y="3.0708661417322833"/>
         <point x="4.1732283464566935" y="3.5826771653543306"/>
-        <point x="3.8582677165354333" y="4.724409448818898"/>
+        <point x="3.700787401574803" y="4.68503937007874"/>
         <point x="4.68503937007874" y="4.645669291338582"/>
       </controlPoints2>
       <color hex="3333ff"/>
@@ -4482,93 +4310,320 @@
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R25</name>
+      <alpha>127</alpha>
+      <length value="11.5" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="5.866141732283464" y="3.8582677165354333"/>
+        <point x="6.25984251968504" y="4.645669291338582"/>
+        <point x="6.062992125984251" y="4.2519685039370065"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>BOTH</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>true</hideShortLeads>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W72</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.070866141732292" y="5.078740157480313"/>
+        <point x="2.9512992125984328" y="5.099999999999998"/>
+        <point x="2.9512992125984328" y="4.894999999999999"/>
+        <point x="2.9512992125984328" y="4.915000000000001"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W73</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.070866141732292" y="4.251968503937008"/>
+        <point x="2.9512992125984328" y="4.27"/>
+        <point x="2.9512992125984328" y="4.474999999999998"/>
+        <point x="2.9512992125984328" y="4.455000000000001"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R27</name>
+      <alpha>127</alpha>
+      <length value="11.5" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="2.9512992125984328" y="4.455000000000001"/>
+        <point x="2.9512992125984328" y="4.915000000000001"/>
+        <point x="2.9512992125984328" y="4.685"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>BOTH</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>true</hideShortLeads>
+      <value value="1.5" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W74</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.070866141732292" y="5.078740157480313"/>
+        <point x="3.151299212598433" y="5.059999999999998"/>
+        <point x="3.151299212598433" y="4.865000000000002"/>
+        <point x="3.151299212598433" y="4.885000000000001"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W75</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.070866141732292" y="4.251968503937008"/>
+        <point x="3.151299212598433" y="4.27"/>
+        <point x="3.151299212598433" y="4.465000000000001"/>
+        <point x="3.151299212598433" y="4.445"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.AxialElectrolyticCapacitor>
+      <name>C18</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="6.0" unit="mm"/>
+      <points>
+        <point x="3.151299212598433" y="4.445"/>
+        <point x="3.151299212598433" y="4.885000000000001"/>
+        <point x="3.151299212598433" y="4.665000000000001"/>
+      </points>
+      <bodyColor hex="6b6dce"/>
+      <borderColor hex="4a4c90"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>BOTH</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>true</hideShortLeads>
+      <value value="22.0" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="63.0" unit="V"/>
+      <markerColor hex="8cacea"/>
+      <tickColor hex="ffffff"/>
+      <polarized>true</polarized>
+    </diylc.passive.AxialElectrolyticCapacitor>
+    <diylc.connectivity.HookupWire>
+      <name>W76</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.070866141732284" y="5.078740157480315"/>
+        <point x="3.1496062992126013" y="5.157480314960631"/>
+        <point x="3.503937007874016" y="5.275590551181102"/>
+        <point x="3.8582677165354333" y="5.078740157480315"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="000000"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W31</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.0708661417322856" y="3.8582677165354347"/>
+        <point x="3.149606299212603" y="3.937007874015751"/>
+        <point x="3.3858267716535466" y="3.937007874015751"/>
+        <point x="3.464566929133862" y="3.8582677165354347"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="000000"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R32</name>
+      <alpha>127</alpha>
+      <length value="11.5" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="3.78" y="4.645"/>
+        <point x="3.78" y="5.11"/>
+        <point x="3.78" y="4.877499999999999"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>BOTH</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>true</hideShortLeads>
+      <value value="1.0" unit="M"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name></name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.8582677165354333" y="5.078740157480315"/>
+        <point x="3.775" y="5.29"/>
+        <point x="3.78" y="5.085"/>
+        <point x="3.78" y="5.11"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[54]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[64]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[84]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[35]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[46]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[14]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[63]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[62]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[19]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[24]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[50]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[32]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[45]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[74]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[71]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[41]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[27]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[42]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[30]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[69]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[26]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[43]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[15]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[29]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[78]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[7]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[61]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[56]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[17]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[8]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[34]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[18]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[40]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[79]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[31]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[58]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[45]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[11]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[7]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[64]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[19]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[71]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[62]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[70]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[65]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[56]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[54]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[12]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[34]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[76]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[9]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[49]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[37]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[27]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[52]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[40]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[2]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[78]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[36]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[61]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[83]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[33]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[68]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[57]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[16]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[28]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[77]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[73]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[84]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[46]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[43]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[41]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[39]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[67]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[47]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[5]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[69]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[44]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[51]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[48]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[23]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[57]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[4]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[67]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[52]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[60]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[81]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[38]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[11]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[59]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[30]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[8]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[4]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[79]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[20]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[80]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[72]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[9]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[76]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[12]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[10]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[66]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[33]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[39]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[68]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[53]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[25]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[13]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[55]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[36]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[75]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[49]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[2]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[80]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[82]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[65]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[70]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[6]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[21]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[3]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[58]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[15]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[10]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[60]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[18]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[26]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[23]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[48]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[22]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[37]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[83]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[32]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[75]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[59]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[73]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[63]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[38]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[14]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[66]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[72]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[25]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[17]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[81]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[42]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[28]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[53]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[3]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[51]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[24]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[21]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[29]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[77]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[55]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[35]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[50]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[6]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[74]"/>
     </set>
   </groups>
   <lockedLayers/>

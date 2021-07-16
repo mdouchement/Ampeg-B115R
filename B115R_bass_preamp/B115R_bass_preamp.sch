@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ampeg B115R preamp"
-Date "2021-04-01"
-Rev "1.0"
+Date "2021-07-16"
+Rev "2.0"
 Comp "https://github.com/mdouchement/Ampeg-B115R"
 Comment1 "Mix of Ampeg B15R & B100R preamps"
 Comment2 ""
@@ -90,7 +90,7 @@ L Device:R R1
 U 1 1 5FCF856E
 P 2650 4550
 F 0 "R1" H 2720 4596 50  0000 L CNN
-F 1 "1.5K 0.5W" H 2720 4505 50  0000 L CNN
+F 1 "1.5K 1W" H 2720 4505 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 2580 4550 50  0001 C CNN
 F 3 "~" H 2650 4550 50  0001 C CNN
 F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html" H 2650 4550 50  0001 C CNN "Links"
@@ -135,24 +135,24 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 5FD2ABCF
-P 5400 5800
-F 0 "R2" H 5470 5846 50  0000 L CNN
-F 1 "1.5K 0.5W" H 5470 5755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5330 5800 50  0001 C CNN
-F 3 "~" H 5400 5800 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html" H 5400 5800 50  0001 C CNN "Links"
-	1    5400 5800
+P 5400 6150
+F 0 "R2" H 5470 6196 50  0000 L CNN
+F 1 "1.5K 1W" H 5470 6105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5330 6150 50  0001 C CNN
+F 3 "~" H 5400 6150 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html" H 5400 6150 50  0001 C CNN "Links"
+	1    5400 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5FD2CB2E
-P 5400 6200
-F 0 "#PWR0109" H 5400 5950 50  0001 C CNN
-F 1 "GND" H 5405 6027 50  0000 C CNN
-F 2 "" H 5400 6200 50  0001 C CNN
-F 3 "" H 5400 6200 50  0001 C CNN
-	1    5400 6200
+P 5400 6450
+F 0 "#PWR0109" H 5400 6200 50  0001 C CNN
+F 1 "GND" H 5405 6277 50  0000 C CNN
+F 2 "" H 5400 6450 50  0001 C CNN
+F 3 "" H 5400 6450 50  0001 C CNN
+	1    5400 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -295,25 +295,25 @@ $EndComp
 $Comp
 L Device:C C8
 U 1 1 602B9664
-P 5800 1850
-F 0 "C8" V 5548 1850 50  0000 C CNN
-F 1 "100nF 400V" V 5639 1850 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal" H 5838 1700 50  0001 C CNN
-F 3 "~" H 5800 1850 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 5800 1850 50  0001 C CNN "Links"
-	1    5800 1850
+P 5750 1600
+F 0 "C8" V 5498 1600 50  0000 C CNN
+F 1 "100nF 400V" V 5589 1600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal" H 5788 1450 50  0001 C CNN
+F 3 "~" H 5750 1600 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 5750 1600 50  0001 C CNN "Links"
+	1    5750 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5500 1300 5500 1850
+	5500 1300 5500 1600
 Wire Wire Line
-	5500 1850 5650 1850
+	5500 1600 5600 1600
 $Comp
 L Device:R R19
 U 1 1 603CA65D
 P 8350 5850
 F 0 "R19" H 8420 5896 50  0000 L CNN
-F 1 "1.5K 0.5W" H 8420 5805 50  0000 L CNN
+F 1 "1.5K 1W" H 8420 5805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8280 5850 50  0001 C CNN
 F 3 "~" H 8350 5850 50  0001 C CNN
 	1    8350 5850
@@ -363,19 +363,19 @@ Wire Wire Line
 $Comp
 L Device:C C12
 U 1 1 603D3E76
-P 8800 2500
-F 0 "C12" V 8548 2500 50  0000 C CNN
-F 1 "100nF 400V" V 8639 2500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal" H 8838 2350 50  0001 C CNN
-F 3 "~" H 8800 2500 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 8800 2500 50  0001 C CNN "Links"
-	1    8800 2500
+P 8750 2850
+F 0 "C12" V 8498 2850 50  0000 C CNN
+F 1 "100nF 400V" V 8589 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal" H 8788 2700 50  0001 C CNN
+F 3 "~" H 8750 2850 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 8750 2850 50  0001 C CNN "Links"
+	1    8750 2850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8450 2500 8650 2500
+	8450 2850 8600 2850
 Wire Wire Line
-	7250 850  7250 800 
+	7350 900  7350 800 
 $Comp
 L Device:R R16
 U 1 1 60483F7E
@@ -388,114 +388,55 @@ F 3 "~" H 6900 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7250 1150 7250 1200
+	7350 1200 7350 1250
 $Comp
 L power:GND #PWR0120
 U 1 1 604D5A16
-P 7250 1200
-F 0 "#PWR0120" H 7250 950 50  0001 C CNN
-F 1 "GND" H 7255 1027 50  0000 C CNN
-F 2 "" H 7250 1200 50  0001 C CNN
-F 3 "" H 7250 1200 50  0001 C CNN
-	1    7250 1200
+P 7350 1250
+F 0 "#PWR0120" H 7350 1000 50  0001 C CNN
+F 1 "GND" H 7355 1077 50  0000 C CNN
+F 2 "" H 7350 1250 50  0001 C CNN
+F 3 "" H 7350 1250 50  0001 C CNN
+	1    7350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C10
 U 1 1 604D4CFE
-P 7250 1000
-F 0 "C10" H 7368 1046 50  0000 L CNN
-F 1 "10µF @VCC" H 7368 955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 7288 850 50  0001 C CNN
-F 3 "~" H 7250 1000 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html" H 7250 1000 50  0001 C CNN "Links"
-	1    7250 1000
+P 7350 1050
+F 0 "C10" H 7468 1096 50  0000 L CNN
+F 1 "10µF @VCC" H 7468 1005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 7388 900 50  0001 C CNN
+F 3 "~" H 7350 1050 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html" H 7350 1050 50  0001 C CNN "Links"
+	1    7350 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C9
 U 1 1 604D3A49
-P 6550 1000
-F 0 "C9" H 6668 1046 50  0000 L CNN
-F 1 "10µF @VCC" H 6668 955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 6588 850 50  0001 C CNN
-F 3 "~" H 6550 1000 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html" H 6550 1000 50  0001 C CNN "Links"
-	1    6550 1000
+P 6450 1050
+F 0 "C9" H 6568 1096 50  0000 L CNN
+F 1 "10µF @VCC" H 6568 1005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 6488 900 50  0001 C CNN
+F 3 "~" H 6450 1050 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html" H 6450 1050 50  0001 C CNN "Links"
+	1    6450 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 604D653A
-P 6550 1200
-F 0 "#PWR0121" H 6550 950 50  0001 C CNN
-F 1 "GND" H 6555 1027 50  0000 C CNN
-F 2 "" H 6550 1200 50  0001 C CNN
-F 3 "" H 6550 1200 50  0001 C CNN
-	1    6550 1200
+P 6450 1250
+F 0 "#PWR0121" H 6450 1000 50  0001 C CNN
+F 1 "GND" H 6455 1077 50  0000 C CNN
+F 2 "" H 6450 1250 50  0001 C CNN
+F 3 "" H 6450 1250 50  0001 C CNN
+	1    6450 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 1150 6550 1200
-Wire Wire Line
-	9750 5800 9750 5700
-$Comp
-L power:GND #PWR0114
-U 1 1 6042F943
-P 9750 5800
-F 0 "#PWR0114" H 9750 5550 50  0001 C CNN
-F 1 "GND" H 9755 5627 50  0000 C CNN
-F 2 "" H 9750 5800 50  0001 C CNN
-F 3 "" H 9750 5800 50  0001 C CNN
-	1    9750 5800
-	1    0    0    -1  
-$EndComp
-Connection ~ 9750 5300
-Wire Wire Line
-	9750 5300 9750 5400
-Wire Wire Line
-	9750 5300 9750 5100
-Wire Wire Line
-	9400 5300 9750 5300
-Wire Wire Line
-	9400 4950 9400 5300
-Wire Wire Line
-	9400 4650 9400 4300
-$Comp
-L Device:R R27
-U 1 1 6041C583
-P 9750 5550
-F 0 "R27" H 9820 5596 50  0000 L CNN
-F 1 "100K" H 9820 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9680 5550 50  0001 C CNN
-F 3 "~" H 9750 5550 50  0001 C CNN
-	1    9750 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R26
-U 1 1 6041BB06
-P 9750 4950
-F 0 "R26" H 9820 4996 50  0000 L CNN
-F 1 "1.5K" H 9820 4905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9680 4950 50  0001 C CNN
-F 3 "~" H 9750 4950 50  0001 C CNN
-	1    9750 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R25
-U 1 1 6041ABC7
-P 9400 4800
-F 0 "R25" H 9470 4846 50  0000 L CNN
-F 1 "1M" H 9470 4755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9330 4800 50  0001 C CNN
-F 3 "~" H 9400 4800 50  0001 C CNN
-	1    9400 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 4300 9550 4300
+	6450 1200 6450 1250
 $Comp
 L Valve:ECC83 V2
 U 1 1 6040EC86
@@ -510,18 +451,16 @@ $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FF3A4FA
-P 9150 3850
-F 0 "#PWR0115" H 9150 3600 50  0001 C CNN
-F 1 "GND" H 9155 3677 50  0000 C CNN
-F 2 "" H 9150 3850 50  0001 C CNN
-F 3 "" H 9150 3850 50  0001 C CNN
-	1    9150 3850
+P 9050 4600
+F 0 "#PWR0115" H 9050 4350 50  0001 C CNN
+F 1 "GND" H 9055 4427 50  0000 C CNN
+F 2 "" H 9050 4600 50  0001 C CNN
+F 3 "" H 9050 4600 50  0001 C CNN
+	1    9050 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 3850 9150 3700
-Wire Wire Line
-	9950 2850 9900 2850
+	9050 4600 9050 4450
 $Comp
 L Device:CP C17
 U 1 1 605C0528
@@ -545,76 +484,13 @@ Wire Wire Line
 Connection ~ 8350 5550
 Wire Wire Line
 	8350 5550 8350 5700
-Connection ~ 8450 2500
+Connection ~ 8450 2850
 Wire Wire Line
-	8450 1300 8450 2500
+	8450 1300 8450 2850
 Wire Wire Line
 	8450 1000 8450 800 
-$Comp
-L Device:R_POT Volume1
-U 1 1 5FF3566E
-P 9150 3550
-F 0 "Volume1" H 9081 3596 50  0000 R CNN
-F 1 "A500K" H 9081 3505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 9150 3550 50  0001 C CNN
-F 3 "~" H 9150 3550 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/potentiometer-bourns-500k-log-hrt.html" H 9150 3550 50  0001 C CNN "Links"
-	1    9150 3550
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 606203A3
-P 10400 5800
-F 0 "#PWR0102" H 10400 5550 50  0001 C CNN
-F 1 "GND" H 10405 5627 50  0000 C CNN
-F 2 "" H 10400 5800 50  0001 C CNN
-F 3 "" H 10400 5800 50  0001 C CNN
-	1    10400 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R33
-U 1 1 606203AA
-P 10400 5550
-F 0 "R33" H 10470 5596 50  0000 L CNN
-F 1 "470K" H 10470 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 10330 5550 50  0001 C CNN
-F 3 "~" H 10400 5550 50  0001 C CNN
-	1    10400 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 3900 9850 3650
-Wire Wire Line
-	9850 3650 9550 3650
-Wire Wire Line
-	9550 3650 9550 800 
-Connection ~ 9550 800 
-Wire Wire Line
-	10400 3500 9900 3500
-Wire Wire Line
-	9900 3500 9900 2850
-$Comp
-L Device:C C18
-U 1 1 60657DE6
-P 9400 3850
-F 0 "C18" H 9515 3896 50  0000 L CNN
-F 1 "100nF" H 9515 3805 50  0000 L CNN
-F 2 "" H 9438 3700 50  0001 C CNN
-F 3 "~" H 9400 3850 50  0001 C CNN
-	1    9400 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 4000 9400 4300
-Connection ~ 9400 4300
-Wire Wire Line
-	9400 3700 9400 3550
-Wire Wire Line
-	9400 3550 9300 3550
-Wire Wire Line
-	9150 3400 9150 2500
 $Comp
 L Device:R R32
 U 1 1 606882B1
@@ -641,7 +517,7 @@ $EndComp
 Wire Wire Line
 	8050 5450 8050 5650
 Wire Wire Line
-	8950 2500 9150 2500
+	8900 2850 9050 2850
 $Comp
 L Device:R R24
 U 1 1 606C762A
@@ -676,10 +552,10 @@ F 3 "~" H 7050 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT Bass1
+L Device:R_POT Bass
 U 1 1 606CB045
 P 7050 2350
-F 0 "Bass1" V 6843 2350 50  0000 C CNN
+F 0 "Bass" V 6843 2350 50  0000 C CNN
 F 1 "B50K" V 6934 2350 50  0000 C CNN
 F 2 "" H 7050 2350 50  0001 C CNN
 F 3 "~" H 7050 2350 50  0001 C CNN
@@ -687,10 +563,10 @@ F 3 "~" H 7050 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT LowMid1
+L Device:R_POT LowMid
 U 1 1 606CC13F
 P 7050 2900
-F 0 "LowMid1" V 6843 2900 50  0000 C CNN
+F 0 "LowMid" V 6843 2900 50  0000 C CNN
 F 1 "B50K" V 6934 2900 50  0000 C CNN
 F 2 "" H 7050 2900 50  0001 C CNN
 F 3 "~" H 7050 2900 50  0001 C CNN
@@ -698,10 +574,10 @@ F 3 "~" H 7050 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT HiMid1
+L Device:R_POT HiMid
 U 1 1 606CC7BC
 P 7050 3450
-F 0 "HiMid1" V 6843 3450 50  0000 C CNN
+F 0 "HiMid" V 6843 3450 50  0000 C CNN
 F 1 "B50K" V 6934 3450 50  0000 C CNN
 F 2 "" H 7050 3450 50  0001 C CNN
 F 3 "~" H 7050 3450 50  0001 C CNN
@@ -709,10 +585,10 @@ F 3 "~" H 7050 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT Treble1
+L Device:R_POT Treble
 U 1 1 606CCE74
 P 7050 4000
-F 0 "Treble1" V 6843 4000 50  0000 C CNN
+F 0 "Treble" V 6843 4000 50  0000 C CNN
 F 1 "B50K" V 6934 4000 50  0000 C CNN
 F 2 "" H 7050 4000 50  0001 C CNN
 F 3 "~" H 7050 4000 50  0001 C CNN
@@ -969,30 +845,30 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 8450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 2500 8450 4600
+	8450 2850 8450 4600
 Wire Wire Line
 	8050 5000 8150 5000
 Wire Wire Line
-	8200 1850 9150 1850
+	8200 1850 9050 1850
 Wire Wire Line
-	9150 1850 9150 2500
-Connection ~ 9150 2500
+	9050 1850 9050 2850
+Connection ~ 9050 2850
 Wire Wire Line
-	7050 800  7250 800 
+	7050 800  7350 800 
 Wire Wire Line
-	5400 5950 5400 6200
+	5400 6300 5400 6450
 Wire Wire Line
-	5500 1850 5500 4150
+	5500 1600 5500 4150
 $Comp
 L Device:R R14
 U 1 1 60A5430A
-P 5400 5300
-F 0 "R14" H 5470 5346 50  0000 L CNN
-F 1 "1.5K 0.5W" H 5470 5255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5330 5300 50  0001 C CNN
-F 3 "~" H 5400 5300 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html" H 5400 5300 50  0001 C CNN "Links"
-	1    5400 5300
+P 5400 5550
+F 0 "R14" H 5470 5596 50  0000 L CNN
+F 1 "1.5K 1W" H 5470 5505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5330 5550 50  0001 C CNN
+F 3 "~" H 5400 5550 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html" H 5400 5550 50  0001 C CNN "Links"
+	1    5400 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1008,16 +884,16 @@ F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 5450 5050 5550
+	5050 5450 5050 5850
 Wire Wire Line
-	5050 5550 5400 5550
+	5050 5850 5400 5850
 Wire Wire Line
-	5400 5550 5400 5450
+	5400 5850 5400 5700
 Wire Wire Line
-	5400 5550 5400 5650
-Connection ~ 5400 5550
+	5400 5850 5400 6000
+Connection ~ 5400 5850
 Wire Wire Line
-	5400 5150 5400 5050
+	5400 5400 5400 5200
 Wire Wire Line
 	5050 5150 5050 4550
 Wire Wire Line
@@ -1025,69 +901,69 @@ Wire Wire Line
 $Comp
 L Device:C C6
 U 1 1 60A76480
-P 5750 5050
-F 0 "C6" V 5498 5050 50  0000 C CNN
-F 1 "33nF" V 5589 5050 50  0000 C CNN
-F 2 "" H 5788 4900 50  0001 C CNN
-F 3 "~" H 5750 5050 50  0001 C CNN
-	1    5750 5050
+P 5800 5200
+F 0 "C6" V 5548 5200 50  0000 C CNN
+F 1 "33nF 50V" V 5639 5200 50  0000 C CNN
+F 2 "" H 5838 5050 50  0001 C CNN
+F 3 "~" H 5800 5200 50  0001 C CNN
+	1    5800 5200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 5050 5600 5050
-Connection ~ 5400 5050
+	5400 5200 5650 5200
+Connection ~ 5400 5200
 Wire Wire Line
-	5400 5050 5400 4950
+	5400 5200 5400 4950
 $Comp
 L Device:R R15
 U 1 1 60A7DE8F
-P 6000 5550
-F 0 "R15" H 6070 5596 50  0000 L CNN
-F 1 "100K" H 6070 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5930 5550 50  0001 C CNN
-F 3 "~" H 6000 5550 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html" H 6000 5550 50  0001 C CNN "Links"
-	1    6000 5550
+P 6100 5500
+F 0 "R15" H 6170 5546 50  0000 L CNN
+F 1 "100K" H 6170 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6030 5500 50  0001 C CNN
+F 3 "~" H 6100 5500 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html" H 6100 5500 50  0001 C CNN "Links"
+	1    6100 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 5050 6000 5050
+	5950 5200 6100 5200
 Wire Wire Line
-	6000 5050 6000 5400
+	6100 5200 6100 5350
 $Comp
 L power:GND #PWR0104
 U 1 1 60A8D602
-P 6000 6000
-F 0 "#PWR0104" H 6000 5750 50  0001 C CNN
-F 1 "GND" H 6005 5827 50  0000 C CNN
-F 2 "" H 6000 6000 50  0001 C CNN
-F 3 "" H 6000 6000 50  0001 C CNN
-	1    6000 6000
+P 6100 5950
+F 0 "#PWR0104" H 6100 5700 50  0001 C CNN
+F 1 "GND" H 6105 5777 50  0000 C CNN
+F 2 "" H 6100 5950 50  0001 C CNN
+F 3 "" H 6100 5950 50  0001 C CNN
+	1    6100 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 5700 6000 5850
+	6100 5650 6100 5850
 Wire Wire Line
-	6350 5750 6350 5850
+	6500 5750 6500 5850
 Wire Wire Line
-	6350 5850 6000 5850
-Connection ~ 6000 5850
+	6500 5850 6100 5850
+Connection ~ 6100 5850
 Wire Wire Line
-	6000 5850 6000 6000
+	6100 5850 6100 5950
 Wire Wire Line
-	6350 5350 6350 5050
+	6500 5350 6500 5200
 Wire Wire Line
-	6350 5050 6000 5050
-Connection ~ 6000 5050
+	6500 5200 6100 5200
+Connection ~ 6100 5200
 $Comp
 L Switch:SW_DPST_x2 SW2
 U 1 1 60A9633B
-P 6350 5550
-F 0 "SW2" V 6350 5462 50  0001 R CNN
-F 1 "Ultra Hi" V 6350 5462 50  0000 R CNN
-F 2 "" H 6350 5550 50  0001 C CNN
-F 3 "~" H 6350 5550 50  0001 C CNN
-	1    6350 5550
+P 6500 5550
+F 0 "SW2" V 6500 5462 50  0001 R CNN
+F 1 "Ultra Hi" V 6500 5462 50  0000 R CNN
+F 2 "" H 6500 5550 50  0001 C CNN
+F 3 "~" H 6500 5550 50  0001 C CNN
+	1    6500 5550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1105,10 +981,10 @@ F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 4650 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT Gain1
+L Device:R_POT Gain
 U 1 1 60AD0597
 P 4000 4550
-F 0 "Gain1" H 3931 4596 50  0000 R CNN
+F 0 "Gain" H 3931 4596 50  0000 R CNN
 F 1 "A1M" H 3931 4505 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 4000 4550 50  0001 C CNN
 F 3 "~" H 4000 4550 50  0001 C CNN
@@ -1377,15 +1253,15 @@ Wire Wire Line
 	4000 3700 4000 4400
 Wire Wire Line
 	4150 4550 4500 4550
-Connection ~ 5500 1850
+Connection ~ 5500 1600
 Wire Wire Line
 	4800 4550 5050 4550
 Connection ~ 5050 4550
 Wire Wire Line
-	6550 850  6550 800 
-Connection ~ 6550 800 
+	6450 900  6450 800 
+Connection ~ 6450 800 
 Wire Wire Line
-	6550 800  6750 800 
+	6450 800  6750 800 
 $Comp
 L power:GND #PWR0122
 U 1 1 6137A2F0
@@ -1400,32 +1276,7 @@ $EndComp
 Wire Wire Line
 	8350 6200 8350 6000
 Wire Wire Line
-	10400 3500 10400 5300
-$Comp
-L Device:C C14
-U 1 1 6043999B
-P 10100 5300
-F 0 "C14" V 9848 5300 50  0000 C CNN
-F 1 "100nF 400V" V 9939 5300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal" H 10138 5150 50  0001 C CNN
-F 3 "~" H 10100 5300 50  0001 C CNN
-F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 10100 5300 50  0001 C CNN "Links"
-	1    10100 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9750 4700 9750 4800
-Wire Wire Line
-	9750 5300 9950 5300
-Wire Wire Line
-	10250 5300 10400 5300
-Connection ~ 10400 5300
-Wire Wire Line
-	10400 5300 10400 5400
-Wire Wire Line
-	10400 5700 10400 5800
-Wire Wire Line
-	8450 800  9550 800 
+	8450 800  9350 800 
 Connection ~ 6800 2900
 Wire Wire Line
 	6800 2900 6800 3450
@@ -1448,21 +1299,19 @@ Wire Wire Line
 	6650 1850 6800 1850
 Connection ~ 6800 1850
 Wire Wire Line
-	6350 1850 5950 1850
-Wire Wire Line
 	1300 550  1300 3500
 Wire Wire Line
 	9900 550  9900 2650
 Wire Wire Line
-	7250 800  8450 800 
-Connection ~ 7250 800 
+	7350 800  8450 800 
+Connection ~ 7350 800 
 Connection ~ 8450 800 
 Wire Wire Line
 	2750 1000 2750 800 
 Wire Wire Line
 	2750 800  5500 800 
 Wire Wire Line
-	5500 800  6550 800 
+	5500 800  6450 800 
 Connection ~ 5500 800 
 Wire Wire Line
 	10500 2850 10500 3150
@@ -1478,4 +1327,258 @@ F 4 "https://www.tube-town.net/ttstore/cliff-6-3-mono-switched-jack.html" H 1070
 	1    10700 2750
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R27
+U 1 1 607F581C
+P 9750 5150
+F 0 "R27" H 9820 5196 50  0000 L CNN
+F 1 "1.5K 1W" H 9820 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9680 5150 50  0001 C CNN
+F 3 "~" H 9750 5150 50  0001 C CNN
+	1    9750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 607F5822
+P 10350 5500
+F 0 "#PWR0102" H 10350 5250 50  0001 C CNN
+F 1 "GND" H 10355 5327 50  0000 C CNN
+F 2 "" H 10350 5500 50  0001 C CNN
+F 3 "" H 10350 5500 50  0001 C CNN
+	1    10350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C18
+U 1 1 607F5829
+P 10350 5150
+F 0 "C18" H 10468 5196 50  0000 L CNN
+F 1 "22µF 50V" H 10468 5105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal" H 10388 5000 50  0001 C CNN
+F 3 "~" H 10350 5150 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html" H 10350 5150 50  0001 C CNN "Links"
+	1    10350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 5000 10350 4850
+Wire Wire Line
+	10350 4850 9750 4850
+Wire Wire Line
+	10350 5300 10350 5500
+Wire Wire Line
+	9750 4700 9750 4850
+Connection ~ 9750 4850
+Wire Wire Line
+	9750 4850 9750 5000
+$Comp
+L power:GND #PWR0113
+U 1 1 607F5835
+P 9750 5500
+F 0 "#PWR0113" H 9750 5250 50  0001 C CNN
+F 1 "GND" H 9755 5327 50  0000 C CNN
+F 2 "" H 9750 5500 50  0001 C CNN
+F 3 "" H 9750 5500 50  0001 C CNN
+	1    9750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5500 9750 5300
+Wire Wire Line
+	9400 4300 9550 4300
+Wire Wire Line
+	9400 4300 9400 4450
+$Comp
+L Device:R R25
+U 1 1 6081E49A
+P 9350 1150
+F 0 "R25" H 9420 1196 50  0000 L CNN
+F 1 "100K 1W" H 9420 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9280 1150 50  0001 C CNN
+F 3 "~" H 9350 1150 50  0001 C CNN
+F 4 "1W" H 9350 1150 50  0001 C CNN "Power"
+F 5 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-100k-1-watt.html" H 9350 1150 50  0001 C CNN "Links"
+	1    9350 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1300 9350 2850
+Wire Wire Line
+	9350 1000 9350 800 
+Connection ~ 9350 800 
+Wire Wire Line
+	9350 800  9550 800 
+Wire Wire Line
+	9350 3650 9850 3650
+$Comp
+L Device:R_POT Volume
+U 1 1 5FF3566E
+P 9050 4300
+F 0 "Volume" H 8981 4346 50  0000 R CNN
+F 1 "A500K" H 8981 4255 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 9050 4300 50  0001 C CNN
+F 3 "~" H 9050 4300 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/potentiometer-bourns-500k-log-hrt.html" H 9050 4300 50  0001 C CNN "Links"
+	1    9050 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9200 4300 9400 4300
+Connection ~ 9400 4300
+Wire Wire Line
+	9050 2850 9050 4150
+$Comp
+L Device:C C14
+U 1 1 608F6253
+P 9650 2850
+F 0 "C14" V 9398 2850 50  0000 C CNN
+F 1 "100nF 400V" V 9489 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal" H 9688 2700 50  0001 C CNN
+F 3 "~" H 9650 2850 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html" H 9650 2850 50  0001 C CNN "Links"
+	1    9650 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2850 9500 2850
+Connection ~ 9350 2850
+Wire Wire Line
+	9350 2850 9350 3650
+Wire Wire Line
+	9800 2850 9850 2850
+Wire Wire Line
+	9400 4750 9400 4950
+$Comp
+L power:GND #PWR0114
+U 1 1 607E72AB
+P 9400 4950
+F 0 "#PWR0114" H 9400 4700 50  0001 C CNN
+F 1 "GND" H 9405 4777 50  0000 C CNN
+F 2 "" H 9400 4950 50  0001 C CNN
+F 3 "" H 9400 4950 50  0001 C CNN
+	1    9400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 607E72A5
+P 9400 4600
+F 0 "R26" H 9470 4646 50  0000 L CNN
+F 1 "1M" H 9470 4555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9330 4600 50  0001 C CNN
+F 3 "~" H 9400 4600 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html" H 9400 4600 50  0001 C CNN "Links"
+	1    9400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3200 9850 3400
+$Comp
+L power:GND #PWR0123
+U 1 1 6095FA96
+P 9850 3400
+F 0 "#PWR0123" H 9850 3150 50  0001 C CNN
+F 1 "GND" H 9855 3227 50  0000 C CNN
+F 2 "" H 9850 3400 50  0001 C CNN
+F 3 "" H 9850 3400 50  0001 C CNN
+	1    9850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 6095FA9D
+P 9850 3050
+F 0 "R33" H 9920 3096 50  0000 L CNN
+F 1 "470K" H 9920 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 9780 3050 50  0001 C CNN
+F 3 "~" H 9850 3050 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html" H 9850 3050 50  0001 C CNN "Links"
+	1    9850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2900 9850 2850
+Connection ~ 9850 2850
+Wire Wire Line
+	9850 2850 9950 2850
+Wire Notes Line rgb(194, 194, 194)
+	3250 1150 3250 3600
+Wire Notes Line rgb(194, 194, 194)
+	3250 3600 4950 3600
+Wire Notes Line rgb(194, 194, 194)
+	4950 3600 4950 1150
+Wire Notes Line rgb(194, 194, 194)
+	4950 1150 3250 1150
+Text Notes 3450 1100 0    50   ~ 0
+Ultra Low\nTonestack
+Wire Notes Line rgb(194, 194, 194)
+	5650 4850 5650 6300
+Wire Notes Line rgb(194, 194, 194)
+	6800 4850 6800 6300
+Text Notes 5800 4800 0    50   ~ 0
+Ultra High\nBypass capacitor
+Wire Notes Line rgb(194, 194, 194)
+	5650 4850 6800 4850
+Wire Notes Line rgb(194, 194, 194)
+	5650 6300 6800 6300
+$Comp
+L Device:R_POT Trimpot
+U 1 1 60D7D5E0
+P 6050 1850
+F 0 "Trimpot" H 5981 1896 50  0000 R CNN
+F 1 "A1M" H 5981 1805 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 6050 1850 50  0001 C CNN
+F 3 "~" H 6050 1850 50  0001 C CNN
+F 4 "https://www.tube-town.net/ttstore/potentiometer-bourns-500k-log-hrt.html" H 6050 1850 50  0001 C CNN "Links"
+	1    6050 1850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5900 1600 6050 1600
+Wire Wire Line
+	6050 1600 6050 1700
+Wire Wire Line
+	6200 1850 6350 1850
+$Comp
+L power:GND #PWR?
+U 1 1 60DC6658
+P 6050 2150
+F 0 "#PWR?" H 6050 1900 50  0001 C CNN
+F 1 "GND" H 6055 1977 50  0000 C CNN
+F 2 "" H 6050 2150 50  0001 C CNN
+F 3 "" H 6050 2150 50  0001 C CNN
+	1    6050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2000 6050 2150
+Wire Notes Line rgb(62, 150, 194)
+	6350 1500 6350 4700
+Wire Notes Line rgb(62, 150, 194)
+	6350 1500 9150 1500
+Wire Notes Line rgb(62, 150, 194)
+	9150 1500 9150 3050
+Wire Notes Line rgb(62, 150, 194)
+	9150 3050 8600 3050
+Wire Notes Line rgb(62, 150, 194)
+	7000 4750 6500 4750
+Text Notes 7700 1450 0    50   ~ 0
+Active Tonestack
+Text Notes 5200 4200 0    50   ~ 0
+Driver\nStage
+Wire Notes Line rgb(62, 150, 194)
+	7000 5450 7000 4750
+Wire Notes Line rgb(62, 150, 194)
+	7000 5450 8600 5450
+Wire Notes Line rgb(62, 150, 194)
+	8600 3050 8600 4700
+Wire Notes Line rgb(62, 150, 194)
+	8600 5450 8600 5300
+Text Notes 6800 1000 0    50   ~ 0
+Voltage\nDropping
+Text Notes 7450 1250 0    50   ~ 0
+Filter
+Text Notes 6550 1250 0    50   ~ 0
+Filter
 $EndSCHEMATC
